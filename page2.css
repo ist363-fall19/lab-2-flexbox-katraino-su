@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin: 0px auto;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    height: 100px;
+    background: red;
+}
+
+footer {
+    display: block;
+    height: 200px;
+    background-color: darkgrey;
+}
+
+.main {
+    display:flex;
+    flex: 1;
+    height: 500px;
+    align-items: stretch;
+}
+
+.content {
+    height: 500px;
+    width: 75%;
+    background-color: lightgrey;
+    margin: 10px;
+    border: 1px solid gray
+}
+
+.sidebar {
+    background-color: lightgrey;
+    width: 25%;
+    margin: 10px;
+    border: 1px solid gray;
+    height: 500px;
+}
